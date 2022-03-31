@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+ body{
+   font-family: "Epilogue";
+   background-color: rgb(18, 18, 18);
+   color: #F9F9F9;
+ }
