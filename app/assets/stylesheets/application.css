@@ -19,3 +19,46 @@
    background-color: rgb(18, 18, 18);
    color: #F9F9F9;
  }
+
+ a{
+   text-decoration: none;
+   color: white;
+   background-color: transparent;
+ }
+
+ button{
+  font-size: 18px;
+ }
+
+ .blague button{
+   font-size: 25px;
+ }
+
+ h1 a{
+  color: #F9F9F9;
+}
+
+
+ .tej {
+   position: absolute;
+   display: none;
+ }
+
+ ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .blague{
+   display: flex;
+   justify-content: center;
+   margin-top: 35vh;
+ }
+
+ .blague p{
+  font-size: 25px;
+  font-family: "Epilogue";
+  font-weight: 700;
+ }

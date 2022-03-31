@@ -1,2 +1,13 @@
 
-<button>faites moi rire</button>
+<p class = "tej"><%=
+rando = 0
+currentBlague = @blagues[rand(1..@blagues.length()) -1].content
+%></p>
+
+<div class = "blague">
+  <p><%= currentBlague %></p>
+</div>
+
+<div class = "blague">
+  <button><%= link_to "Faites moi rire", "../acceuil/index"%></button>
+</div>
