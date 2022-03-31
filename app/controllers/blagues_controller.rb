@@ -25,7 +25,7 @@ class BlaguesController < ApplicationController
 
     respond_to do |format|
       if @blague.save
-        format.html { redirect_to blague_url(@blague), notice: "Blague was successfully created." }
+        format.html { redirect_to " ../acceuil/index", notice: "Blague was successfully created." }
         format.json { render :show, status: :created, location: @blague }
       else
         format.html { render :new, status: :unprocessable_entity }
