@@ -28,6 +28,7 @@
 
  button{
   font-size: 18px;
+  width: fit-content;
  }
 
  .blague button{
@@ -61,4 +62,12 @@
   font-size: 25px;
   font-family: "Epilogue";
   font-weight: 700;
+  line-height: normal;
+  position: absolute;
+ }
+
+ @media (max-width: 480px) {
+  ul{
+    justify-content:space-evenly;
+  }
  }
