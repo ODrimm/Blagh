@@ -82,3 +82,19 @@
    margin-bottom: 20vh;
    margin-top: 10vh;
  }
+
+ .faire{
+  border: none;
+  border-radius: 6px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  width: 105%;
+ }
+
+ .rire{
+  padding: none;
+  border: none;
+  border-radius: 6px;
+  padding: 0.8%;
+ }
