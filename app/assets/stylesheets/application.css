@@ -64,6 +64,8 @@
   font-weight: 700;
   line-height: normal;
   position: absolute;
+  margin: 5vw;
+  transform: translateY(-50%);
  }
 
  @media (max-width: 480px) {
